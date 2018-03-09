@@ -15,7 +15,7 @@ dictionary = {
   shortened = [] 
   all_words.each do |word|
     if dictionary.keys.include?(word.downcase)
-      shortened << dictionary[word] 
+      shortened << dictionary[word.downcase] 
     else 
       shortened << word 
     end 
