@@ -14,7 +14,7 @@ dictionary = {
   all_words = string.split(' ')
   shortened = [] 
   all_words.each do |word|
-    if dictionary.keys.include?(word)
+    if dictionary.keys.include?(word.downcase)
       shortened << dictionary[word] 
     else 
       shortened << word 
