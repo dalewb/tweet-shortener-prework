@@ -23,7 +23,7 @@ dictionary = {
   shortened.join(' ') 
 end 
 
-def bulk_tweet_shortner(array)
+def bulk_tweet_shortener(array)
   array.each do |tweet|
     puts "#{word_substituter(tweet)}"
   end 
