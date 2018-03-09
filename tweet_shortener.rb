@@ -14,8 +14,8 @@ def word_substituter(string)
   all_words = string.split(' ')
   shortened = [] 
   all_words.each do |word|
-    if @dictionary.keys.include?(word)
-      shortened << @dictionary[word] 
+    if dictionary.keys.include?(word)
+      shortened << dictionary[word] 
     else 
       shortened << word 
     end 
