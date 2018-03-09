@@ -1,4 +1,5 @@
-@dictionary = {
+def word_substituter(string)
+dictionary = {
 'hello' => 'hi',
 'to' => '2',
 'two' => '2', 
@@ -10,7 +11,6 @@
 'at' => '@', 
 'and' => '&'}
 
-def word_substituter(string)
   all_words = string.split(' ')
   shortened = [] 
   all_words.each do |word|
